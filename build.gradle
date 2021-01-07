@@ -9,14 +9,14 @@ defaultTasks("clean", "build")
 
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '1.8'
+sourceCompatibility = '11'
 
 repositories {
 	mavenCentral()
 }
 
 ext {
-	set('vaadinVersion', "14.3.7")
+	set('vaadinVersion', "14.4.5")
 }
 
 configurations {
