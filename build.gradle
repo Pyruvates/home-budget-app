@@ -7,9 +7,8 @@ plugins {
 
 defaultTasks("clean", "build")
 
-group = 'com.example'
-version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '11'
+group = 'ru.koshkarovvitalii'
+version = '0.1.1'
 
 repositories {
 	mavenCentral()
