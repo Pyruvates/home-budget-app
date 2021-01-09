@@ -16,7 +16,7 @@ Prerequisites:
 
 ## Versions
 
-The *master* branch contains the stable working version of the application
+The [master](https://github.com/Pyruvates/home-budget-app) branch contains the stable working version of the application
 
 ## Description
 The application contains two tabs:

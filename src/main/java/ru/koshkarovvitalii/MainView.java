@@ -15,7 +15,7 @@ import com.vaadin.flow.server.PWA;
  * The main view contains a button and a click listener.
  */
 @Route("")
-@PWA(name = "Project Base for Vaadin", shortName = "Project Base")
+@PWA(name = "Home budget application", shortName = "Home budget")
 @CssImport("./styles/shared-styles.css")
 @CssImport(value = "./styles/vaadin-text-field-styles.css", themeFor = "vaadin-text-field")
 public class MainView extends VerticalLayout {
@@ -23,7 +23,7 @@ public class MainView extends VerticalLayout {
     public MainView() {
         setAlignItems(Alignment.CENTER);
 
-        Text text = new Text("Home budget app");
+        Text text = new Text("Home budget");
 
         TextField nameField = new TextField("Enter your name");
 
